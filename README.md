@@ -68,3 +68,5 @@ Our backlog is ordered such that a working demo may be produced as quickly as po
 ### Whole Team Relative Size Estimation
 In order to help accurately gauge the effort required to perform backlog items, our team participated in whole team relative size estimating. This technique allows us to plan and adapt by comparing the complexity of our story items by taking advantage of our collective wisdom. Due to the developers being the closest to the problem, they are the ones most suited to do this estimation. As such, only the development team participated in the activity.
 
+- [Playing Poker](https://play.planningpoker.com/play/game/83wRkgZiY4CtdW41agniGRCsksT8yksm)
+
