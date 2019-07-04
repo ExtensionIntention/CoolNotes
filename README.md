@@ -114,7 +114,8 @@ Andrew: Get personal Rails server running.
 
 #### Sprint Review and Pair Programming evidences
 
-[image](https://github.com/cool-notes/CoolNotes/blob/master/Pair%20Programming.png)
+[Pair Programming](https://github.com/cool-notes/CoolNotes/blob/master/Pair%20Programming.png)
+[Real Stakeholder Attanded](https://github.com/cool-notes/CoolNotes/blob/master/RealStakeholder.png)
 
 
 
