@@ -1,6 +1,5 @@
 # Cool Notes
 
-## Status
 [![Build Status](https://travis-ci.com/cool-notes/CoolNotes.png)](https://travis-ci.com/cool-notes/CoolNotes)
 
 ## Scrum Team
