@@ -89,7 +89,7 @@ we realized that our first user story was 8 storypoints and it was not half of o
 
 ### Daily Scrum Sample
 
-[Image](https://github.com/cool-notes/CoolNotes/blob/master/IMG_3990.HEIC)
+[Image](https://github.com/cool-notes/CoolNotes/blob/master/IMG_3990.jpg)
 
 
 #### Last 24
