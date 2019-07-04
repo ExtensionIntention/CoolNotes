@@ -1,6 +1,5 @@
 # Cool Notes
 
-## Status
 [![Build Status](https://travis-ci.com/cool-notes/CoolNotes.png)](https://travis-ci.com/cool-notes/CoolNotes)
 
 ## Scrum Team
@@ -109,7 +108,7 @@ Jonnie: Work on Sticky Notes Story.
 
 Mariam:  
 
-Aromal: 
+Aromal: Getting travis CI integration working.
 
 Andrew: Get personal Rails server running.
 
