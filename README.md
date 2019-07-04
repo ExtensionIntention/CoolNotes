@@ -1,5 +1,6 @@
 # Cool Notes
 
+## Status
 [![Build Status](https://travis-ci.com/cool-notes/CoolNotes.png)](https://travis-ci.com/cool-notes/CoolNotes)
 
 ## Scrum Team
@@ -93,22 +94,22 @@ Please see the image of one of our daily scurms [Image](https://github.com/cool-
 #### Last 24
 Jonnie: Set up Ruby on Rails server framework.
 
-Mariam: Learned to use Semantic UI in HTML in order to import pertinent entities. Implemented baseline web application frontend.
+Mariam: Set up Ruby on Rails. Launched server, learned to use Semantic UI in HTML in order to import pertinent entities. Implemented baseline web application frontend, menu and text area. Implemented Grammarly extension for spellcheck and grammar, worked on design.
 
 Aromal: Research and reviewed CSS tools and techniques.
 
 Andrew: Getting up to speed on Ruby.
 
-Impediments: The Ruby server is more overhead than previously anticipated for some of the team members.
+Impediments: Little or no experience with Ruby on Rails. 
 
-Removal Plan: 
+Removal Plan: Learn more about how to use Ruby on Rails, do more mob programming to learn from others. 
 
 #### Next 24
 Jonnie: Work on Sticky Notes Story.
 
-Mariam:  
+Mariam: Need to learn how to action on buttons and click. Need to improve design of the web app.
 
-Aromal: Getting travis CI integration working.
+Aromal: 
 
 Andrew: Get personal Rails server running.
 
