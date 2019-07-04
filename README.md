@@ -80,6 +80,28 @@ In order to help accurately gauge the effort required to perform backlog items, 
 Burndown chart: [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
 
 
+### Daily Scrum Sample
 
+#### Last 24
+Jonnie: Set up Ruby on Rails server framework.
+
+Mariam: Learned to use Semantic UI in HTML in order to import pertinent entities. Implemented baseline web application frontend.
+
+Aromal: Research and reviewed CSS tools and techniques.
+
+Andrew: Getting up to speed on Ruby.
+
+Impediments: The Ruby server is more overhead than previously anticipated for some of the team members.
+
+Removal Plan: 
+
+#### Next 24
+Jonnie: Work on Sticky Notes Story.
+
+Mariam:  
+
+Aromal: 
+
+Andrew: Get personal Rails server running.
 
 
