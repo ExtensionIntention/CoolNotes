@@ -89,8 +89,7 @@ we realized that our first user story was 8 storypoints and it was not half of o
 
 ### Daily Scrum Sample
 
-
-
+Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/DailyS.png)
 
 #### Last 24
 Jonnie: Set up Ruby on Rails server framework.
