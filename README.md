@@ -76,7 +76,8 @@ In order to help accurately gauge the effort required to perform backlog items, 
 ### Forecasting
 18 Story Points: After discussing task complexities team member capabilities during Spring Planning, our estimated forecast velocity was 20. As such, we pulled the first three items from the Product Backog to the Sprint Backlog. We believe it likely that we would be able to deliver the first three most important story items as forecasted. This should be a reasonable timeframe for the team members who are not familiar with our software tool choice to ramp up while still creating a tactile product for our stakeholders. We currently believe that the size of each story in the Product Backlog is appropriately sized and does not need to be split into smaller stories.
 
-
+### Burndown
+Burndown chart: [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
 
 
 
