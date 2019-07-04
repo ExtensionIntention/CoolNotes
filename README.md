@@ -79,13 +79,18 @@ In order to help accurately gauge the effort required to perform backlog items, 
 ## Sprint 1
 
 ### Forecasting
-18 Story Points: After discussing task complexities team member capabilities during Spring Planning, our estimated forecast velocity was 20. As such, we pulled the first three items from the Product Backog to the Sprint Backlog. We believe it likely that we would be able to deliver the first three most important story items as forecasted. This should be a reasonable timeframe for the team members who are not familiar with our software tool choice to ramp up while still creating a tactile product for our stakeholders. We currently believe that the size of each story in the Product Backlog is appropriately sized and does not need to be split into smaller stories.
+11 Story Points: After discussing task complexities team member capabilities during Spring Planning, our estimated forecast velocity was 11 (storypoints per sprint). As such, we pulled the frist two items from the Product Backog to the Sprint Backlog. We believe it likely that we would be able to deliver the first two most important story items as forecasted. This should be a reasonable timeframe for the team members who are not familiar with our software tool choice to ramp up while still creating a tactile product for our stakeholders. We currently believe that the size of each story in the Product Backlog is appropriately sized and does not need to be split into smaller stories.
 
 ### Burndown
 Burndown chart: [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
 
+## Splitting first user story
+we realized that our first user story was 8 storypoints and it was not half of our velocity so we splitted it in 2 and is documented at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
 
 ### Daily Scrum Sample
+
+[Image](https://github.com/cool-notes/CoolNotes/blob/master/IMG_3990.HEIC)
+
 
 #### Last 24
 Jonnie: Set up Ruby on Rails server framework.
