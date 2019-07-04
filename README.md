@@ -109,7 +109,7 @@ Jonnie: Work on Sticky Notes Story.
 
 Mariam:  
 
-Aromal: 
+Aromal: Getting travis CI integration working.
 
 Andrew: Get personal Rails server running.
 
