@@ -99,17 +99,22 @@ Aromal: Research and reviewed CSS tools and techniques.
 
 Andrew: Getting up to speed on Ruby.
 
-Impediments: Little or no experience with Ruby on Rails. 
+Impediments: Little or no experience with Ruby on Rails. Issues with cooperating. 
 
-Removal Plan: Learn more about how to use Ruby on Rails, do more mob programming to learn from others. 
+Removal Plan: Learn more about how to use Ruby on Rails, do more mob programming to learn from others. Improve team cooperation through better communication. 
 
 #### Next 24
 Jonnie: Work on Sticky Notes Story.
 
-Mariam: Need to learn how to action on buttons and click. Need to improve design of the web app.
+Mariam: Need to learn how to action on buttons on click. (Switching pages when menu items are clicked and provide content of new pages). Need to improve design of the web app. Learn more ruby. Work on text toolbar items (fonts, bold, underlined etc)
 
 Aromal: Get travis CI integration running.
 
 Andrew: Get personal Rails server running.
+
+#### Sprint Review and Pair Programming evidences
+
+[image](https://github.com/cool-notes/CoolNotes/blob/master/Pair%20Programming.png)
+
 
 
