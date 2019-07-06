@@ -6,8 +6,11 @@ class NoteSetControllerTest < ActionDispatch::IntegrationTest
   # end
 
   test "does something" do
-    a = NoteSet.new
-    assert_not a.save
+    # controller = NoteSet.new
+    # p = ActionController::Parameters.new({
+    #   text: "hi"
+    #   })
+    # controller.export(:text => "hi")
   end
 
 end
