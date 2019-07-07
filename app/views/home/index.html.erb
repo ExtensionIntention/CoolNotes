@@ -10,6 +10,13 @@
 <body style = "background-color:#50C0D1; ">
 
 
+<% if current_user %>
+  Logged in as <%= current_user.email %>.
+  <%= link_to "Log Out", logout_path %>
+<% else %>
+  <%= link_to "Sign Up", signup_path %> or 
+  <%= link_to "Log In", login_path %>
+<% end %>
 
 <%= form_with scope: :note_set, url: '/note_set/export', local: true do |form| %>
  
