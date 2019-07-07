@@ -9,7 +9,7 @@
 </head>
 <body style = "background-color:#50C0D1; ">
 
-<%= link_to "Create Account", '/users/new' %>
+
 <% if current_user %>
   Logged in as <%= current_user.email %>.
   <%= link_to "Log Out", logout_path %>
