@@ -17,6 +17,4 @@ class UserTest < ActiveSupport::TestCase
     assert_equal "changed@test.test", @user.email
   end
 
-  #test "get user note sets" do
-
 end
