@@ -1,0 +1,49 @@
+<p id="notice">
+    <%= notice %>
+</p>
+
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+<table>
+    <thead>
+        <tr>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        <% @infos.each do |info| %>
+            <tr>
+                <td>
+                    <%= info.Name %>
+                </td>
+                <td>
+                    <%= info.Email %>
+                </td>
+                <td>
+                    <%= info.Message %>
+                </td>
+                <td>
+                    <%= link_to 'Show', info %>
+                </td>
+                <td>
+                    <%= link_to 'Edit', edit_info_path(info) %>
+                </td>
+                <td>
+                    <%= link_to 'Destroy', info, method: :delete, data: { confirm: 'Are you sure?' } %>
+                </td>
+            </tr>
+            <% end %>
+    </tbody>
+</table>
+
+<br>
+
+<div class="ui container">
+    <h1> Contact</h1>
+    <a class="ui button" href="/infos/new"> Create a form </a>
+    <a class="ui button" href="/home/index"> Back </a>
+</div>

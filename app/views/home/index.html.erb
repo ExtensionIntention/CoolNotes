@@ -1,77 +1,87 @@
-
 <html>
+
 <head>
-	<title>CoolNotes</title>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src= "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" ></script>
+    <title>CoolNotes</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 
 </head>
-<body style = "background-color:#50C0D1; ">
+
+<body style="background-color:#50C0D1; ">
 
 
 
-<%= form_with scope: :note_set, url: '/note_set/export', local: true do |form| %>
- 
+    <%= form_with scope: :note_set, url: '/note_set/export', local: true do |form| %>
 
 
 
-	<div class="ui form">
-		<grammarly-extension class="_1KJtL" style="position: absolute; top: 0px; left: 0px; pointer-events: none;">
-			<div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;">
-				<div style="box-sizing: content-box; top: 24px; left: 1px; width: 755px; height: 195px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;">
-					<div style="position: absolute; top: 0px; left: 0px;">
-						<div style="height: 1026px; width: 1858px;"></div>
-						<div style="position: absolute; top: 0px; left: 0px; height: 1026px; width: 1858px;"></div>
-					</div>
-				</div>
-			</div>
-			<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;">
-				<div style="box-sizing: content-box; top: 24px; left: 1px; width: 755px; height: 195px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;">
-					<div style="position: absolute; transform: translate(-100%, -100%); top: 184px; left: 741px; width: auto; height: auto; pointer-events: all;">
-						<div style="display: flex; flex-direction: row;">
-							<div>
-								<div class="_5WizN _1QzSN">
-									<div class="_3YmQx">
-										<div title="Protected by Grammarly" class="_3QdKe">&nbsp;</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</grammarly-extension>
 
-		
+        <div class="ui form">
+            <grammarly-extension class="_1KJtL" style="position: absolute; top: 0px; left: 0px; pointer-events: none;">
+                <div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;">
+                    <div style="box-sizing: content-box; top: 24px; left: 1px; width: 755px; height: 195px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;">
+                        <div style="position: absolute; top: 0px; left: 0px;">
+                            <div style="height: 1026px; width: 1858px;"></div>
+                            <div style="position: absolute; top: 0px; left: 0px; height: 1026px; width: 1858px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;">
+                    <div style="box-sizing: content-box; top: 24px; left: 1px; width: 755px; height: 195px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;">
+                        <div style="position: absolute; transform: translate(-100%, -100%); top: 184px; left: 741px; width: auto; height: auto; pointer-events: all;">
+                            <div style="display: flex; flex-direction: row;">
+                                <div>
+                                    <div class="_5WizN _1QzSN">
+                                        <div class="_3YmQx">
+                                            <div title="Protected by Grammarly" class="_3QdKe">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </grammarly-extension>
 
-     <div class="ui compact small icon menu">     
-     	 <a class="item active"> <i class="home icon"></i> Home </a>       
-     	  <a class="item"> <i class="question circle icon"></i> About </a>        
-     	  <a class="item "> <i class="info icon"></i> Contact</a>    
-     	</div>
 
-     	<h1 style = "font-family: impact; color: #E6F1F3; text-align: center; font-size: 350%;"> Welcome to Cool Notes </h1>
 
-		<div class="ui container">
+            <div class="ui compact small icon menu">
+                <a class="item active"> <i class="home icon"></i> Home </a>
+                <a class="item"> <i class="question circle icon"></i> About </a>
+                <%= link_to 'Contact', infos_path, class: 'item' %>
 
-    	<a class="ui blue ribbon label" style="padding: 10px; margin-top: 35px;" >
-			<i class="pencil icon"> </i> Notes
-			<span>
-				<textarea id="note_set_text" name="note_set[text]" spellcheck="true" rows="40" cols="100" style="margin-top:20px;"></textarea>
-				<div class="column"></div>
-			</span>
+
+            </div>
+
+            <h1 style="font-family: impact; color: #E6F1F3; text-align: center; font-size: 350%;"> Welcome to Cool Notes </h1>
+
+            <div class="ui container">
+
+
+                <a class="ui blue ribbon label" style="padding: 10px; margin-top: 35px;">
+                    <i class="pencil icon"> </i> Notes
+                    <span>
+							
+
+            <textarea id="note_set_text" name="note_set[text]" spellcheck="true" rows="40" cols="100" style="margin-top:20px;"> 
+					
+			</textarea>
+
 			
-			<button class="ui icon button" type="submit" name="commit">
+            <div class="column"></div>
+            </span>
+
+                    <button class="ui icon button" type="submit" name="commit">
 			<i class="download icon"></i>
 			</button>
 
-		</div>
-		<!-- <div class="contenteditable"></div> -->
+            </div>
 
 
-        <% end %>
-</div>
+
+            <% end %>
+        </div>
 </body>
 
 </html>
