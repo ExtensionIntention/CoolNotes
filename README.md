@@ -116,7 +116,7 @@ Andrew: Get personal Rails server running.
 
 [Pair Programming](https://github.com/cool-notes/CoolNotes/blob/master/Pair%20Programming.png)
 
-[Real Stakeholder Attanded](https://github.com/cool-notes/CoolNotes/blob/master/RealStakeholder.png)
+[Real Stakeholder Attended](https://github.com/cool-notes/CoolNotes/blob/master/RealStakeholder.png)
 
 
 
@@ -134,35 +134,42 @@ Some of our user stories were larger than necessary. For example, the sticky not
 
 ### Daily Scrum Sample
 
-Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/DailyS.png)
+Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/scrum2.png)
 
 #### Last 24
-Jonnie: 
+Jonnie: Created backend representation of sticky notes.
 
-Mariam: 
+Mariam: Made link to stub of contact form page.
 
-Aromal: 
+Aromal: Got Travis CI in Github working with unit tests.
 
-Andrew: 
+Andrew: Got personal rails server running.
 
-Impediments: 
+Impediments: Issues with all team members running the code with new dependency on PostgreSQL. Also, some Git difficulties due to lack of familiarity and moving projects around.
 
-Removal Plan: 
+Removal Plan: Members who got it to work spend extra time helping lagging members on setting up PostgreSQL. Employ mob programming techniques to force key compoments to completion before farming off smaller tasks.
 
 #### Next 24
-Jonnie: 
+Jonnie: Complete integration of PostgreSQL.
 
-Mariam: 
+Mariam: Create contact form submmission protocol.
 
-Aromal: 
+Aromal: Create and expand unit tests.
 
-Andrew: 
+Andrew: Support team efforts and unit tests.
 
 #### Sprint Review and Pair Programming evidences
 
-[Pair Programming](https://github.com/cool-notes/CoolNotes/blob/master/Pair%20Programming.png)
+[Mob Programming](https://github.com/cool-notes/CoolNotes/blob/master/mob2.png)
 
-[Real Stakeholder Attanded](https://github.com/cool-notes/CoolNotes/blob/master/RealStakeholder.png)
+[Real Stakeholder Attended](https://github.com/cool-notes/CoolNotes/blob/master/stake2.png)
+
+
+### Stakeholder Comments
+- 
+
+
+### Sprint Review
 
 
 
