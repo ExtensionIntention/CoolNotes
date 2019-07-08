@@ -68,6 +68,11 @@
 				<textarea id="note_set_text" name="note_set[text]" spellcheck="true" rows="40" cols="100" style="margin-top:20px;"></textarea>
 				<div class="column"></div>
 			</span>
+
+            <%= user = current_user ? current_user.id : -1 %>
+
+
+            <input type="hidden" id="note_set_user_id" name="note_set[user_id]" value="<%=user%>">
 			
 			<button class="ui icon button" type="submit" name="commit">
 			<i class="download icon"></i>
