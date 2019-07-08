@@ -119,4 +119,4 @@ Andrew: Get personal Rails server running.
 [Real Stakeholder Attanded](https://github.com/cool-notes/CoolNotes/blob/master/RealStakeholder.png)
 
 
-
+stub
