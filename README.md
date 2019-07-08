@@ -134,7 +134,7 @@ Some of our user stories were larger than necessary. For example, the sticky not
 
 ### Daily Scrum Sample
 
-Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/scrum2.png)
+Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/scrum2.jpg)
 
 #### Last 24
 Jonnie: Created backend representation of sticky notes.
@@ -160,14 +160,18 @@ Andrew: Support team efforts and unit tests.
 
 #### Sprint Review and Pair Programming evidences
 
-[Mob Programming](https://github.com/cool-notes/CoolNotes/blob/master/mob2.png)
+[Mob Programming](https://github.com/cool-notes/CoolNotes/blob/master/mob2.jpg)
 
-[Real Stakeholder Attended](https://github.com/cool-notes/CoolNotes/blob/master/stake2.png)
+[Real Stakeholder Attended](https://github.com/cool-notes/CoolNotes/blob/master/stake2.jpg)
 
 
-### Stakeholder Comments
-- 
-
+### Stakeholder
+#### Comments
+- I'm glad to see it actually functions.
+- I don't care about contacting the administrators.
+- Functionality is more important than user accounts.
+#### Adjustments
+While none of these comments added to our backlogs, it did give us insight on what to prioritize. With the comments we elevated the importance of the tactile functionality in our backlogs. This will be more applicable next sprint as we decided to continue to finish the backend functionality that we started.
 
 ### Sprint Review
 
