@@ -7,7 +7,7 @@ class InfosTest < ApplicationSystemTestCase
 
   test "visiting the index" do
     visit infos_url
-    assert_selector "h1", text: "Infos"
+    assert_selector "h1", text: "Contact"
   end
 
   test "creating a Info" do
@@ -17,11 +17,12 @@ class InfosTest < ApplicationSystemTestCase
     fill_in "Email", with: @info.Email
     fill_in "Message", with: @info.Message
     fill_in "Name", with: @info.Name
-    click_on "create info"
+    click_on "Submit"
 
-    assert_text "Info was successfully created"
+    assert_text "Message was successfully submited"
     click_on "Back"
   end
+
 
   test "updating a Info" do
     visit infos_url
@@ -30,9 +31,9 @@ class InfosTest < ApplicationSystemTestCase
     fill_in "Email", with: @info.Email
     fill_in "Message", with: @info.Message
     fill_in "Name", with: @info.Name
-    click_on "Update Info"
+    click_on "Submit"
 
-    assert_text "Info was successfully updated"
+    assert_text "Message was successfully updated"
     click_on "Back"
   end
 
@@ -42,6 +43,6 @@ class InfosTest < ApplicationSystemTestCase
       click_on "Destroy", match: :first
     end
 
-    assert_text "Info was successfully destroyed"
+    assert_text "Message was successfully deleted"
   end
 end
