@@ -126,7 +126,7 @@ Andrew: Get personal Rails server running.
 15 Story Points: Our estimated forecast velocity was 15 (storypoints per sprint). This value was obtained using the Extreme Programming (XP) concept of "yesterday's weather" where we use the progress of the previous sprint as a prediction for the coming sprint. As such, we pulled the next six items from the Product Backog to the Sprint Backlog as it equals roughly 15 story points. We believe it likely that we would be able to deliver these next most important story items as forecasted given our newly gained experience. While some of our team members are still lagging behind in familiarity with our software tool choice, everyone is still able to contribute meaningfully towards working software increments. Some of the stories in the Product Backlog were larger than necessary and as such have been split into smaller stories explained in a futher section.
 
 ### Burndown
-Burndown chart (**the Sprint 2 chart is located in thhttps://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharinge Sprint 2 tab which can be seen at the bottom of the sheets**): [chart]()
+Burndown chart (**the Sprint 2 chart is located in thhttps://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharinge Sprint 2 tab which can be seen at the bottom of the sheets**): [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
 
 ### Splitting user stories
 Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
@@ -174,6 +174,6 @@ Andrew: Support team efforts and unit tests.
 While none of these comments added to our backlogs, it did give us insight on what to prioritize. With the comments we elevated the importance of the tactile functionality in our backlogs. This will be more applicable next sprint as we decided to continue to finish the backend functionality that we started.
 
 ### Sprint Review
-
+Next goal: Our goal for the next sprint is to be more communicative. To this end, we will be sure to post at least twice in our threads updating what we are doing outside our daily scrums. We tested the working increment together as can be seen [here](https://github.com/cool-notes/CoolNotes/blob/master/demo2.png). We should probably make a video next time. We decided that while we cut it pretty close to getting the burdown to zero by the last day as we were basically working to the last few hours, we actually made a pretty good forecast.
 
 
