@@ -54,7 +54,6 @@ Provide easy, simple and enjoyable note taking platform.
 | ----- | ---------- | ------------------ | ------------------- | ------------ |
 | Web-App - no account | As a student, I want to take notes without needing to sign in, so that I can record my thoughts without unnecessary action. | No mandatory account | There is an web application that can be run on a browser, On application startup there is an empty note item on the board. Ability to export| 8 |
 | Spell-Check | As a non-native English speaking student, I need a spell check, so that I can write notes that are free of such mistakes. | Spelling issues | When web-app suggests to correct misspelled words | 3 |
-| Contact Section | As a site user, I want to be able to reach out for help in case I have questions. | Needs to contact support team | Contact Section, contact submit form, storing requsts in database | 5 |
 | Sticky Notes | As a non-tech savvy student, I want to use a simple note-taking platform, so that I don’t get confused. | Sticky notes wanted | When toolbar has stickers that can be successfully deployed on the note sheet | 5 |
 | Grammar-correction | As a non-English speaking user, I want a software to correct common grammar/punctuation mistakes, so that I can write notes that are free of grammatical mistakes. | Grammar assist feature needed  | When software successfuly makes correction suggestions on common grammar mistakes  | 4 |
 | Bulletpoints (lists) | As a conference attendee, I want to be able to take notes with different note-taking essentials, so that I can successfully capture the main points of the event. | Needs to efficiently capture the main points of the event | Toolbar with good variety of bullet points, numbering and other listing techniques (deploy and delete) | 5 |
@@ -62,6 +61,7 @@ Provide easy, simple and enjoyable note taking platform.
 | Appealing design | As a student, I need well-equipped toolbar, so that I can replace taking notes by hand. | An aesthete | Tools offered in the toolbar are designed to look very similar to real life equivalents. Offering fonts that look like real handwriting | 13 |
 | Manual Entry (drawing) | As a weak typist, I want to be able to write/draw notes freehand to get my ideas out quickly. | Drawing tools wanted | User can enter free draw mode in toolbar, using tablet or suitable peripheral device. In free draw mode, user can draw on notes and imported documents. | 8 |
 | "Help" section | As a senior user, I want to be able to find “help” section, so that I understand how to use each feature/tool. | “Help” needed | Section on the site that explains how to use items on the toolbar and how to navigate an application as a whole | 13 |
+| Contact Section | As a site user, I want to be able to easily delete/undo work, so that I know I won’t spend a lot of time undoing mistakes. | Needs to contact support team | FAQ section | 10 |
 | Storing notes | As a busy student, I want to be able to store my notes in web-abb, so that I can access them later online without importing the file from my computer | account access wanted | There is a button to create an account, as well as log in page, fields that take in user ID and password and validate credentials  | 13 |
 
 
@@ -130,7 +130,7 @@ Burndown chart (**the Sprint 2 chart is located in thhttps://docs.google.com/spr
 
 ### Splitting user stories
 Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
-Some of our user stories were larger than necessary. For example, the sticky note story had many demosntrable increments. It was easier to judge progress and write unit tests when each small step was easily documented. We were also able to pinpoint where our story point esimation was inaccurate as we found that moving sticky notes is quite a separate challenge. If we had kept sticky notes as one lump task, an observer may not have noticed this. Another split story was the feedback contact functionality. This story was also appropriately split into frontend and backend portions.
+Some of our user stories were larger than necessary. For example, account support was easily split into more than on task. Not only did the interface for the account need to be created, but also the user data functionality. Another split story was the feedback contact functionality. This story was also appropriately split into frontend and backend portions.
 
 ### Daily Scrum Sample
 
