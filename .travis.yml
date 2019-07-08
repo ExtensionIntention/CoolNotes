@@ -32,6 +32,12 @@ deploy:
   app: coolnotes
   on:
     repo: cool-notes/CoolNotes
+  run:
+    - "rake db:migrate"
+    - sleep 5
+    - restart
+    - sleep 5
+    - "rake cleanup"
 
 # 4. OPTIONAL Only customize the `script` option if needed.
 
