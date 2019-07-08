@@ -8,43 +8,50 @@
 
 </head>
 
-<body style="background-color:#50C0D1; ">
+<body style = "background-color:#50C0D1; ">
+
+
+<% if current_user %>
+  Logged in as <%= current_user.email %>.
+  <%= link_to "Log Out", logout_path %>
+<% else %>
+  <%= link_to "Sign Up", signup_path %> or 
+  <%= link_to "Log In", login_path %>
+<% end %>
+
+<%= form_with scope: :note_set, url: '/note_set/export', local: true do |form| %>
+ 
 
 
 
-    <%= form_with scope: :note_set, url: '/note_set/export', local: true do |form| %>
+	<div class="ui form">
+		<grammarly-extension class="_1KJtL" style="position: absolute; top: 0px; left: 0px; pointer-events: none;">
+			<div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;">
+				<div style="box-sizing: content-box; top: 24px; left: 1px; width: 755px; height: 195px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;">
+					<div style="position: absolute; top: 0px; left: 0px;">
+						<div style="height: 1026px; width: 1858px;"></div>
+						<div style="position: absolute; top: 0px; left: 0px; height: 1026px; width: 1858px;"></div>
+					</div>
+				</div>
+			</div>
+			<div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;">
+				<div style="box-sizing: content-box; top: 24px; left: 1px; width: 755px; height: 195px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;">
+					<div style="position: absolute; transform: translate(-100%, -100%); top: 184px; left: 741px; width: auto; height: auto; pointer-events: all;">
+						<div style="display: flex; flex-direction: row;">
+							<div>
+								<div class="_5WizN _1QzSN">
+									<div class="_3YmQx">
+										<div title="Protected by Grammarly" class="_3QdKe">&nbsp;</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</grammarly-extension>
 
-
-
-
-        <div class="ui form">
-            <grammarly-extension class="_1KJtL" style="position: absolute; top: 0px; left: 0px; pointer-events: none;">
-                <div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;">
-                    <div style="box-sizing: content-box; top: 24px; left: 1px; width: 755px; height: 195px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;">
-                        <div style="position: absolute; top: 0px; left: 0px;">
-                            <div style="height: 1026px; width: 1858px;"></div>
-                            <div style="position: absolute; top: 0px; left: 0px; height: 1026px; width: 1858px;"></div>
-                        </div>
-                    </div>
-                </div>
-                <div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;">
-                    <div style="box-sizing: content-box; top: 24px; left: 1px; width: 755px; height: 195px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;">
-                        <div style="position: absolute; transform: translate(-100%, -100%); top: 184px; left: 741px; width: auto; height: auto; pointer-events: all;">
-                            <div style="display: flex; flex-direction: row;">
-                                <div>
-                                    <div class="_5WizN _1QzSN">
-                                        <div class="_3YmQx">
-                                            <div title="Protected by Grammarly" class="_3QdKe">&nbsp;</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </grammarly-extension>
-
-
+		
 
             <div class="ui compact small icon menu">
                 <a class="item active"> <i class="home icon"></i> Home </a>
@@ -67,6 +74,11 @@
             <textarea id="note_set_text" name="note_set[text]" spellcheck="true" rows="40" cols="100" style="margin-top:20px;"> 
 					
 			</textarea>
+
+            <%= user = current_user ? current_user.id : -1 %>
+
+
+            <input type="hidden" id="note_set_user_id" name="note_set[user_id]" value="<%=user%>">
 
 			
             <div class="column"></div>

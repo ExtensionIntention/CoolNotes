@@ -83,7 +83,7 @@ In order to help accurately gauge the effort required to perform backlog items, 
 ### Burndown
 Burndown chart: [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
 
-## Splitting first user story
+### Splitting first user story
 we realized that our first user story was 8 storypoints and it was not half of our velocity so we splitted it in 2 and is documented at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
 
 ### Daily Scrum Sample
@@ -111,6 +111,51 @@ Mariam: Need to learn how to action on buttons on click. (Switching pages when m
 Aromal: Get travis CI integration running.
 
 Andrew: Get personal Rails server running.
+
+#### Sprint Review and Pair Programming evidences
+
+[Pair Programming](https://github.com/cool-notes/CoolNotes/blob/master/Pair%20Programming.png)
+
+[Real Stakeholder Attanded](https://github.com/cool-notes/CoolNotes/blob/master/RealStakeholder.png)
+
+
+
+## Sprint 2
+
+### Forecasting
+15 Story Points: Our estimated forecast velocity was 15 (storypoints per sprint). This value was obtained using the Extreme Programming (XP) concept of "yesterday's weather" where we use the progress of the previous sprint as a prediction for the coming sprint. As such, we pulled the next three items from the Product Backog to the Sprint Backlog as it equals roughly 15 story points. We believe it likely that we would be able to deliver these next most important story items as forecasted given our newly gained experience. While some of our team members are still lagging behind in familiarity with our software tool choice, everyone is still able to contribute meaningfully towards working software increments. Some of the stories in the Product Backlog are larger than necessary and as such have been split into smaller stories.
+
+### Burndown
+Burndown chart (**the Sprint 2 chart is located in the Sprint 2 tab which can be seen at the bottom of the sheets**): [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
+
+### Splitting user stories
+**STUB** [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
+
+### Daily Scrum Sample
+
+Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/DailyS.png)
+
+#### Last 24
+Jonnie: 
+
+Mariam: 
+
+Aromal: 
+
+Andrew: 
+
+Impediments: 
+
+Removal Plan: 
+
+#### Next 24
+Jonnie: 
+
+Mariam: 
+
+Aromal: 
+
+Andrew: 
 
 #### Sprint Review and Pair Programming evidences
 
