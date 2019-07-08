@@ -125,6 +125,9 @@ Andrew: Get personal Rails server running.
 ### Forecasting
 15 Story Points: Our estimated forecast velocity was 15 (storypoints per sprint). This value was obtained using the Extreme Programming (XP) concept of "yesterday's weather" where we use the progress of the previous sprint as a prediction for the coming sprint. As such, we pulled the next six items from the Product Backog to the Sprint Backlog as it equals roughly 15 story points. We believe it likely that we would be able to deliver these next most important story items as forecasted given our newly gained experience. While some of our team members are still lagging behind in familiarity with our software tool choice, everyone is still able to contribute meaningfully towards working software increments. Some of the stories in the Product Backlog were larger than necessary and as such have been split into smaller stories explained in a futher section.
 
+### Backlog management
+We made some small adjustments to the backlog order for what we believe to be the most important stories for our stakeholders. After making the small rearrangements, we moved the most important items from the product backlog to the sprint backlog.
+
 ### Burndown
 Burndown chart (**the Sprint 2 chart is located in thhttps://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharinge Sprint 2 tab which can be seen at the bottom of the sheets**): [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
 
@@ -137,7 +140,7 @@ Some of our user stories were larger than necessary. For example, the sticky not
 Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/scrum2.jpg)
 
 #### Last 24
-Jonnie: Created backend representation of sticky notes.
+Jonnie: Created backend representation of notes. Also, created user account backend.
 
 Mariam: Made link to stub of contact form page, created table in the database to store contact forms, created 10 unit tests related to the contact page new contact form creation.
 
@@ -150,7 +153,7 @@ Impediments: Issues with all team members running the code with new dependency o
 Removal Plan: Members who got it to work spend extra time helping lagging members on setting up PostgreSQL. Employ mob programming techniques to force key compoments to completion before farming off smaller tasks.
 
 #### Next 24
-Jonnie: Complete integration of PostgreSQL.
+Jonnie: Complete integration of PostgreSQL. Created sign in functionality.
 
 Mariam: Need to add 3 more unit test for contact form. Plan to work on implementing Ckeditor for the user story that wants different fonts and styles. 
 
@@ -170,6 +173,7 @@ Andrew: Support team efforts and unit tests.
 - I'm glad to see I can take simple notes but I want to have note-taking tools.
 - I don't care about contacting the administrators.
 - Functionality is more important than user accounts.
+
 #### Adjustments
 While none of these comments added to our backlogs, it did give us insight on what to prioritize. With the comments we elevated the importance of the tactile functionality in our backlogs. This will be more applicable next sprint as we decided to continue to finish the backend functionality that we started.
 
