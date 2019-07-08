@@ -182,6 +182,6 @@ Here is a demonstration of our unit tests using rake [here](https://github.com/c
 Here is a demonstration of the automatic CI system [here](https://github.com/cool-notes/CoolNotes/blob/master/ci2.png).
 
 ### Sprint Review
-Next goal: Our goal for the next sprint is to be more communicative. To this end, we will be sure to post at least twice in our threads updating what we are doing outside our daily scrums. We tested the working increment together as can be seen [here](https://github.com/cool-notes/CoolNotes/blob/master/demo2.png). We should probably make a video next time. We decided that while we cut it pretty close to getting the burdown to zero by the last day as we were basically working to the last few hours, we actually made a pretty good forecast.
+Our sprint review was short, but we did manage to demonstrate that we had delivered on all of our stories. We did not manage to get a stakeholder for the most recent review unfortunately. Our goal for the next sprint is to be more communicative. To this end, we will be sure to post at least twice in our threads updating what we are doing outside our daily scrums. We tested the working increment together as can be seen [here](https://github.com/cool-notes/CoolNotes/blob/master/demo2.png). We should probably make a video next time. We decided that while we cut it pretty close to getting the burdown to zero by the last day as we were basically working to the last few hours, we actually made a pretty good forecast.
 
 
