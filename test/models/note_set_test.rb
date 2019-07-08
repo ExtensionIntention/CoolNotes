@@ -6,8 +6,8 @@ class NoteSetTest < ActiveSupport::TestCase
   end
 
   test "create note set" do
-    set = NoteSet.new(text:"test")
-    assert set.text == "test"
+    set = NoteSet.create(text:"test")
+    assert_equal(set.text, "test")
   end
 
 end
