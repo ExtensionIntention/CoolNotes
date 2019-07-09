@@ -133,7 +133,7 @@ Burndown chart (**the Sprint 2 chart is located in the Sprint 2 tab which can be
 
 ### Splitting user stories
 Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
-Some of our user stories were larger than necessary. For example, the sticky note story had many demosntrable increments. It was easier to judge progress and write unit tests when each small step was easily documented. We were also able to pinpoint where our story point esimation was inaccurate as we found that moving sticky notes is quite a separate challenge. If we had kept sticky notes as one lump task, an observer may not have noticed this. Another split story was the feedback contact functionality. This story was also appropriately split into frontend and backend portions.
+Some of our user stories were larger than necessary. For example, the account story could clearly be split into creation and management aspect. Splitting up this story aided in isolating functionality and writing unit tests. Another split story was the feedback contact functionality. This story was also appropriately split into frontend and backend portions.
 
 ### Daily Scrum Sample
 
@@ -193,6 +193,9 @@ Our sprint review was short, but we did manage to demonstrate that we had delive
 ### Backlog management
 We made some small adjustments to the backlog order for what we believe to be the most important stories for our stakeholders. We also added some new items in the form of bug fixes which were not anticipated to occur after acceptance criteria was technically fulfilled. After making the small rearrangements and putting bug fixes at the top, we moved the most important items from the product backlog to the sprint backlog.
 
+### Splitting user stories
+Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
+Some of our user stories were larger than necessary. The sticky note story had many demosntrable increments. It was easier to judge progress and write unit tests when each small step was easily documented. We were also able to pinpoint where our story point esimation was inaccurate as we found that moving sticky notes is quite a separate challenge. If we had kept sticky notes as one lump task, an observer may not have noticed this.
 
 
 
