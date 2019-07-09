@@ -197,5 +197,56 @@ We made some small adjustments to the backlog order for what we believe to be th
 Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
 Some of our user stories were larger than necessary. The sticky note story had many demosntrable increments. It was easier to judge progress and write unit tests when each small step was easily documented. We were also able to pinpoint where our story point esimation was inaccurate as we found that moving sticky notes is quite a separate challenge. If we had kept sticky notes as one lump task, an observer may not have noticed this.
 
+### Daily Scrum Sample
+
+
+
+
+Please see the image of one of our daily scurms [Image]()
+
+
+
+
+
+
+#### Last 24
+Jonnie: 
+
+Mariam: 
+
+Aromal: 
+
+Andrew: 
+
+Impediments: 
+
+Removal Plan: 
+
+#### Next 24
+Jonnie: 
+
+Mariam: 
+
+Aromal: 
+
+Andrew: 
+
+#### Sprint Review and Pair Programming evidences
+
+[Mob Programming]()
+
+[Real Stakeholder Attended]()
+
+
+### Stakeholder
+#### Comments
+
+#### Adjustments
+
+### Unit Tests
+Here is a demonstration of our unit tests using rake [here]().
+Here is a demonstration of the automatic CI system [here]().
+
+### Sprint Review
 
 
