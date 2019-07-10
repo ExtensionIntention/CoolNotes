@@ -89,6 +89,7 @@
                         .then(editor => {
                             const toolbarContainer = document.querySelector('#toolbar-container');
 
+
                             toolbarContainer.appendChild(editor.ui.view.toolbar.element);
                         })
                         .catch(error => {
@@ -96,6 +97,9 @@
                         });
                 </script>
 
+
+                <!--<%= user = current_user ? current_user.id : -1 %>-->
+                <input type="hidden" id="note_set_user_id" name="note_set[user_id]" value="<%=user%>">
 
 
                 <%= user = current_user ? current_user.id : -1 %>

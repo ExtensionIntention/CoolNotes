@@ -129,11 +129,11 @@ Andrew: Get personal Rails server running.
 We made some small adjustments to the backlog order for what we believe to be the most important stories for our stakeholders. After making the small rearrangements, we moved the most important items from the product backlog to the sprint backlog.
 
 ### Burndown
-Burndown chart (**the Sprint 2 chart is located in thhttps://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharinge Sprint 2 tab which can be seen at the bottom of the sheets**): [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
+Burndown chart (**the Sprint 2 chart is located in the Sprint 2 tab which can be seen at the bottom of the sheets**): [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
 
 ### Splitting user stories
 Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
-Some of our user stories were larger than necessary. For example, the sticky note story had many demosntrable increments. It was easier to judge progress and write unit tests when each small step was easily documented. We were also able to pinpoint where our story point esimation was inaccurate as we found that moving sticky notes is quite a separate challenge. If we had kept sticky notes as one lump task, an observer may not have noticed this. Another split story was the feedback contact functionality. This story was also appropriately split into frontend and backend portions.
+Some of our user stories were larger than necessary. For example, the account story could clearly be split into creation and management aspect. Splitting up this story aided in isolating functionality and writing unit tests. Another split story was the feedback contact functionality. This story was also appropriately split into frontend and backend portions.
 
 ### Daily Scrum Sample
 
@@ -183,5 +183,70 @@ Here is a demonstration of the automatic CI system [here](https://github.com/coo
 
 ### Sprint Review
 Our sprint review was short, but we did manage to demonstrate that we had delivered on all of our stories. We did not manage to get a stakeholder for the most recent review unfortunately. Our goal for the next sprint is to be more communicative. To this end, we will be sure to post at least twice in our threads updating what we are doing outside our daily scrums. We tested the working increment together as can be seen [here](https://github.com/cool-notes/CoolNotes/blob/master/demo2.png). We should probably make a video next time. We decided that while we cut it pretty close to getting the burdown to zero by the last day as we were basically working to the last few hours, we actually made a pretty good forecast.
+
+
+## Sprint 3
+
+### Forecasting
+15 Story Points: Our estimated forecast velocity was 15 (storypoints per sprint). This is the same value as last time and was obtained using the Extreme Programming (XP) concept of "yesterday's weather" and use data from previous sprints as a prediction for the coming sprint. We managed to complete 15 story points in both of the last two sprints. As such, we pulled the next top items in the Product Backog to the Sprint Backlog such that it roughly sums to 15 story points. Due to some of these items be comprised of bug fixes, the story point estimation metric is likely less accurate. However, the team still believes that the backlog goals are achievable despite the shorter timespan of this sprint. Some of the stories in the Product Backlog were again larger than necessary and as such have been split into smaller stories.
+
+### Backlog management
+We made some small adjustments to the backlog order for what we believe to be the most important stories for our stakeholders. We also added some new items in the form of bug fixes which were not anticipated to occur after acceptance criteria was technically fulfilled. After making the small rearrangements and putting bug fixes at the top, we moved the most important items from the product backlog to the sprint backlog.
+
+### Splitting user stories
+Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
+Some of our user stories were larger than necessary. The sticky note story had many demosntrable increments. It was easier to judge progress and write unit tests when each small step was easily documented. We were also able to pinpoint where our story point esimation was inaccurate as we found that moving sticky notes is quite a separate challenge. If we had kept sticky notes as one lump task, an observer may not have noticed this.
+
+### Daily Scrum Sample
+
+
+
+
+Please see the image of one of our daily scurms [Image]()
+
+
+
+
+
+
+#### Last 24
+Jonnie: 
+
+Mariam: 
+
+Aromal: 
+
+Andrew: 
+
+Impediments: 
+
+Removal Plan: 
+
+#### Next 24
+Jonnie: 
+
+Mariam: 
+
+Aromal: 
+
+Andrew: 
+
+#### Sprint Review and Pair Programming evidences
+
+[Mob Programming]()
+
+[Real Stakeholder Attended]()
+
+
+### Stakeholder
+#### Comments
+
+#### Adjustments
+
+### Unit Tests
+Here is a demonstration of our unit tests using rake [here]().
+Here is a demonstration of the automatic CI system [here]().
+
+### Sprint Review
 
 
