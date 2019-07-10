@@ -30,7 +30,7 @@ Our stakeholders are all individuals who share these woes.
 Seamless connection from mind to machine.
 
 ### Near
-Provide easy, simple and enjoyable note taking platform.
+Provide an easy, simple, and enjoyable note taking platform.
 
 ## Definition of Done
 - Unit tests are made and passed
@@ -188,10 +188,13 @@ Our sprint review was short, but we did manage to demonstrate that we had delive
 ## Sprint 3
 
 ### Forecasting
-15 Story Points: Our estimated forecast velocity was 15 (storypoints per sprint). This is the same value as last time and was obtained using the Extreme Programming (XP) concept of "yesterday's weather" and use data from previous sprints as a prediction for the coming sprint. We managed to complete 15 story points in both of the last two sprints. As such, we pulled the next top items in the Product Backog to the Sprint Backlog such that it roughly sums to 15 story points. Due to some of these items be comprised of bug fixes, the story point estimation metric is likely less accurate. However, the team still believes that the backlog goals are achievable despite the shorter timespan of this sprint. Some of the stories in the Product Backlog were again larger than necessary and as such have been split into smaller stories.
+15 Story Points: Our estimated forecast velocity was 15 (storypoints per sprint). This is the same value as last time and was obtained using the Extreme Programming (XP) concept of "yesterday's weather" and use data from previous sprints as a prediction for the coming sprint. We managed to complete 15 story points in both of the last two sprints. As such, we pulled the next top items in the Product Backog to the Sprint Backlog such that it roughly sums to 15 story points. Due to some of these items be comprised of bug fixes, the story point estimation metric is likely less accurate. It is difficult to determine how long many bug fixes will take as most bugs would have never even been created in the initial development process otherwise. However, the team still believes that the backlog goals are achievable despite the shorter timespan of this sprint. Some of the stories in the Product Backlog were again larger than necessary and as such have been split into smaller stories.
 
 ### Backlog management
 We made some small adjustments to the backlog order for what we believe to be the most important stories for our stakeholders. We also added some new items in the form of bug fixes which were not anticipated to occur after acceptance criteria was technically fulfilled. After making the small rearrangements and putting bug fixes at the top, we moved the most important items from the product backlog to the sprint backlog.
+
+### Burndown
+Burndown chart (**the Sprint 3 chart is located in the Sprint 3 tab which can be seen at the bottom of the sheets**): [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
 
 ### Splitting user stories
 Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
@@ -210,11 +213,11 @@ Please see the image of one of our daily scurms [Image]()
 
 
 #### Last 24
-Jonnie: 
+Jonnie: Begin work on expanding backend saving capabilities. Fix environment issues involving PostgreSQL.
 
-Mariam: 
+Mariam: Experiment with new gem packages to improve aesthetics. Resolve Git issues.
 
-Aromal: 
+Aromal: Support 
 
 Andrew: 
 
@@ -249,4 +252,17 @@ Here is a demonstration of the automatic CI system [here]().
 
 ### Sprint Review
 
+#### Future Plans
+- Appify! Nothing makes a platform more accessible than turning it into an app.
+- Fully functional and intuitive sticky notes.
+- Live servers.
 
+#### Hypothetical Forecast
+- Tackle the rest of the bugs.
+- Complete sticky note functionality (particularly movability).
+- Look for more gems which can help with improving aesthetics.
+- Further integrate the BDD test framework in our project.
+
+#### Thank you EVERYONE!
+
+Rehearsal [pictures]()
