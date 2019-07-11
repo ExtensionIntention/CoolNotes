@@ -2,7 +2,7 @@ require 'test_helper'
 
 class InfosControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @info = infos(:one)
+    @info = infos(:dave)
   end
 
   test "should get index" do
