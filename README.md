@@ -198,10 +198,10 @@ Burndown chart (**the Sprint 3 chart is located in the Sprint 3 tab which can be
 
 ### Splitting user stories
 Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item. It seems that the card values sometimes do not show up for some people's browsers. They are revealed when clicking on the cards directly (seems like a bug).
-Some of our user stories were larger than necessary. The sticky note story had many demosntrable increments. It was easier to judge progress and write unit tests when each small step was easily documented. We were also able to pinpoint where our story point esimation was inaccurate as we found that moving sticky notes is quite a separate challenge. If we had kept sticky notes as one lump task, an observer may not have noticed this. We even ended up splitting up some of our bug stories.
+Some of our user stories were larger than necessary. 
 
 ### Daily Scrum Sample
-Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/scrum3.jpg)
+Please see the image of one of our daily scurms https://drive.google.com/open?id=1Iow1IJpC0w6kGAJtwwA6fwtpX2lpOo3N
 
 #### Last 24
 Jonnie: Begin work on expanding backend saving capabilities. Fixing environment issues involving PostgreSQL.
