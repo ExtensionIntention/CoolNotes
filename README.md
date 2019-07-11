@@ -201,7 +201,7 @@ Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-not
 Some of our user stories were larger than necessary. 
 
 ### Daily Scrum Sample
-Please see the image of one of our daily scurms https://drive.google.com/open?id=1Iow1IJpC0w6kGAJtwwA6fwtpX2lpOo3N
+Please see the image of one of our daily scurms https://drive.google.com/file/d/1Iow1IJpC0w6kGAJtwwA6fwtpX2lpOo3N/view?usp=sharing
 
 #### Last 24
 Jonnie: Begin work on expanding backend saving capabilities. Fixing environment issues involving PostgreSQL.
