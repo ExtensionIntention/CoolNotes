@@ -26,11 +26,11 @@ Our stakeholders are all individuals who share these woes.
 
 ## Product Vision
 
+### Near
+Provide a simple, easy, and basic notetaking platform.
+
 ### Far
 Seamless connection from mind to machine.
-
-### Near
-Provide an easy, simple, and enjoyable note taking platform.
 
 ## Definition of Done
 - Unit tests are made and passed
@@ -197,11 +197,10 @@ We made some small adjustments to the backlog order for what we believe to be th
 Burndown chart (**the Sprint 3 chart is located in the Sprint 3 tab which can be seen at the bottom of the sheets**): [chart](https://docs.google.com/spreadsheets/d/15-MeZMPQ9m1KKVIjYE6X7QVmO5i8YluvSMKPHzsBOW0/edit?usp=sharing)
 
 ### Splitting user stories
-Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item.
-Some of our user stories were larger than necessary. The sticky note story had many demosntrable increments. It was easier to judge progress and write unit tests when each small step was easily documented. We were also able to pinpoint where our story point esimation was inaccurate as we found that moving sticky notes is quite a separate challenge. If we had kept sticky notes as one lump task, an observer may not have noticed this.
+Our backlogs can be seen here at [Trello](https://trello.com/b/DU1kNLqe/cool-notes) as well as tasks for each backlog item. It seems that the card values sometimes do not show up for some people's browsers. They are revealed when clicking on the cards directly (seems like a bug).
+Some of our user stories were larger than necessary. The sticky note story had many demosntrable increments. It was easier to judge progress and write unit tests when each small step was easily documented. We were also able to pinpoint where our story point esimation was inaccurate as we found that moving sticky notes is quite a separate challenge. If we had kept sticky notes as one lump task, an observer may not have noticed this. We even ended up splitting up some of our bug stories.
 
 ### Daily Scrum Sample
-
 Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/scrum3.jpg)
 
 #### Last 24
@@ -227,20 +226,21 @@ Aromal: In corporate new BDD test system for Ruby code.
 Andrew: Task compilation and general support.
 
 #### Programming evidences
-
 [Pair Programming](https://github.com/cool-notes/CoolNotes/blob/master/pair3.jpeg)
-
-
-### Stakeholder
-#### Comments
-
-#### Adjustments
 
 ### Unit Tests
 Here is a demonstration of our unit tests using rake [here]().
 Here is a demonstration of the automatic CI system [here]().
 
 ### Sprint Review
+
+#### Vision Reminder
+
+##### Near
+Provide a simple, easy, and basic notetaking platform.
+
+##### Far
+Seamless connection from mind to machine.
 
 #### Future Plans
 - Appify! Nothing makes a platform more accessible than turning it into an app.
