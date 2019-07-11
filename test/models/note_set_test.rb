@@ -10,4 +10,8 @@ class NoteSetTest < ActiveSupport::TestCase
     assert_equal(set.text, "test")
   end
 
+  test "check note text" do
+    set = note_sets(:one)
+    assert_equal("some test text", set.text)
+  end
 end

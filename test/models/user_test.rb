@@ -17,4 +17,16 @@ class UserTest < ActiveSupport::TestCase
     assert_equal "changed@test.test", @user.email
   end
 
+  test "user has note sets" do
+    sets = @user.note_sets
+    assert_equal(2, sets.size)
+    assert_equal("some test text", sets[0].text)
+  end
+
+  test "destroy user" do
+    @user.destroy
+    assert_raises(ActiveRecord::RecordNotFound) do
+      u = User.find(980190962)
+    end
+  end 
 end

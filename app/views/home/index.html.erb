@@ -54,14 +54,13 @@
                 <a class="item active"> <i class="home icon"></i> Home </a>
                 <a class="item"> <i class="question circle icon"></i> About </a>
                 <%= link_to 'Contact', infos_path, class: 'item' %>
-                    <% if current_user %>
-                        Logged in as
-                        <%= current_user.email %>.
-                            <%= link_to "Log Out", logout_path, class: 'item' %>
-                                <% else %>
-                                    <%= link_to "Sign Up", signup_path, class: 'item' %>
-                                        <%= link_to "Log In", login_path, class: 'item' %>
-                                            <% end %>
+					<% if current_user %>
+						<span class="item"><%= current_user.email %></span>
+                        <%= link_to "Log Out", logout_path, class: 'item' %>
+                    <% else %>
+                        <%= link_to "Sign Up", signup_path, class: 'item' %>
+                        <%= link_to "Log In", login_path, class: 'item' %>
+                    <% end %>
 
             </div>
 
@@ -102,17 +101,7 @@
 
                 <!--<%= user = current_user ? current_user.id : -1 %>-->
                 <input type="hidden" id="note_set_user_id" name="note_set[user_id]" value="<%=user%>">
-
-
-                <%= user = current_user ? current_user.id : -1 %>
-
-
-                    <input type="hidden" id="note_set_user_id" name="note_set[user_id]" value="<%=user%>">
-
-
                     <div class="column"></div>
-                    <!-- </span> -->
-
                     <button class="ui icon button" type="submit" name="commit">
 			<i class="download icon"></i>
 			</button>

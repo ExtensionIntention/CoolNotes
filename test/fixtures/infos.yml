@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  Name: MyString
-  Email: MyString
-  Message: MyText
+dave:
+  Name: Dave
+  Email: dave@dave.dave
+  Message: Dave?
 
-two:
-  Name: MyString
-  Email: MyString
-  Message: MyText
+dean:
+  Name: Dean
+  Email: dean@dave.dave
+  Message: I'm Dean
