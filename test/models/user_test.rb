@@ -28,5 +28,11 @@ class UserTest < ActiveSupport::TestCase
     assert_raises(ActiveRecord::RecordNotFound) do
       u = User.find(980190962)
     end
-  end 
+  end
+  
+  test "should not save without email" do
+    user = User.new
+    assert_not user.valid?
+    assert_not user.save
+  end
 end

@@ -14,4 +14,10 @@ class NoteSetTest < ActiveSupport::TestCase
     set = note_sets(:one)
     assert_equal("some test text", set.text)
   end
+
+  test "should not save without text" do
+    set = NoteSet.new
+    assert_not set.valid?
+    assert_not set.save
+  end
 end

@@ -69,7 +69,9 @@
                 <div id="toolbar-container"></div>
 
                 <div id="editor" class="primaryeditor">
-
+                <% if current_user %>     
+<%= current_user.note_sets.last().text.strip() %>
+<% end %>
                 </div>
 
                 <script>
