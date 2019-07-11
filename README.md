@@ -206,8 +206,7 @@ Please see the image of one of our daily scurms https://drive.google.com/file/d/
 #### Last 24
 Jonnie: Begin work on expanding backend saving capabilities. Fixing environment issues involving PostgreSQL.
 
-Mariam: Experiment with new gem packages to improve aesthetics. Resolve Git issues.
-
+Mariam: Deployed Ckeditor successfuly, fixed the download button.
 Aromal: Fixing issue with automated unit testing.
 
 Andrew: Support testing and research.
@@ -219,20 +218,37 @@ Removal Plan: Jonnie will try to get to the root of the problem while everyone e
 #### Next 24
 Jonnie: Fix enviornment issues.
 
-Mariam: Deploy one of the new gem package feature sets.
+Mariam: cofigure the toolbar for text canvas, change the format of donwloaded file.
 
 Aromal: In corporate new BDD test system for Ruby code.
 
 Andrew: Task compilation and general support.
 
-#### Programming evidences
-[Pair Programming](https://github.com/cool-notes/CoolNotes/blob/master/pair3.jpeg)
+#### Pair Programming evidence
+https://drive.google.com/file/d/1UdAlvfe6EXIWtcicMzb4suna2rYL-F9J/view?usp=sharing
+
+### Impediments 
+
+- Difficulity figuring out using BBD test on rails. 
+- Having issueis with ruby on rails framework while trying to implement Ckeditor features
+
+Removal Plan:
+- More research about BBD testing on rails
+- Possibly switching to more rails friendly text editor.
 
 ### Unit Tests
 Here is a demonstration of our unit tests using rake [here]().
 Here is a demonstration of the automatic CI system [here]().
 
+(pictures) https://drive.google.com/file/d/1AFsZXSS-ZGs0vgTzxQgGA42n9lVAHFDO/view
+https://drive.google.com/file/d/1zNUmyBI9CkWS35gD8MRIFMY7DgzaENJT/view
+
+### Continuous Integration and deployment systems are running successfully 
+
 ### Sprint Review
+
+Here is the video evidence of stakeholder's feedback on our product
+https://drive.google.com/file/d/1qpChIRO_u92ZEf58CsFuQBc1wyl4x8o8/view?usp=sharing
 
 #### Vision Reminder
 
@@ -242,17 +258,16 @@ Provide a simple, easy, and basic notetaking platform.
 ##### Far
 Seamless connection from mind to machine.
 
-#### Future Plans
-- Appify! Nothing makes a platform more accessible than turning it into an app.
-- Fully functional and intuitive sticky notes.
-- Live servers.
+#### Next Sprint
+- BBD testing framework
+- More Features (Sticky Notes).
 
-#### Hypothetical Forecast
+#### Future Plans
+- Fully functional and intuitive sticky notes.
 - Tackle the rest of the bugs.
-- Complete sticky note functionality (particularly movability).
 - Look for more gems which can help with improving aesthetics.
 - Further integrate the BDD test framework in our project.
 
 #### Thank you EVERYONE!
 
-Rehearsal [picture](https://github.com/cool-notes/CoolNotes/blob/master/prep3.jpeg)
+Rehearsal https://drive.google.com/file/d/1WUwgRLpObBBU1yu-jg6fOD5sLSyZQ6f9/view?usp=sharing
