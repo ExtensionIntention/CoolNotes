@@ -70,7 +70,7 @@
 
                 <div id="editor" class="primaryeditor">
                 <% if current_user %>     
-<%= current_user.note_sets.last().text.strip() %>
+<%= strip_tags(current_user.note_sets.last().text) %>
 <% end %>
                 </div>
 
