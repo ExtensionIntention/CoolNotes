@@ -202,15 +202,7 @@ Some of our user stories were larger than necessary. The sticky note story had m
 
 ### Daily Scrum Sample
 
-
-
-
-Please see the image of one of our daily scurms [Image]()
-
-
-
-
-
+Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/scrum3.jpg)
 
 #### Last 24
 Jonnie: Begin work on expanding backend saving capabilities. Fix environment issues involving PostgreSQL.
@@ -234,11 +226,9 @@ Aromal:
 
 Andrew: 
 
-#### Sprint Review and Pair Programming evidences
+#### Programming evidences
 
-[Mob Programming]()
-
-[Real Stakeholder Attended]()
+[Pair Programming](https://github.com/cool-notes/CoolNotes/blob/master/pair3.jpeg)
 
 
 ### Stakeholder
@@ -265,4 +255,4 @@ Here is a demonstration of the automatic CI system [here]().
 
 #### Thank you EVERYONE!
 
-Rehearsal [pictures]()
+Rehearsal [picture](https://github.com/cool-notes/CoolNotes/blob/master/prep3.jpeg)
