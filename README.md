@@ -205,26 +205,26 @@ Some of our user stories were larger than necessary. The sticky note story had m
 Please see the image of one of our daily scurms [Image](https://github.com/cool-notes/CoolNotes/blob/master/scrum3.jpg)
 
 #### Last 24
-Jonnie: Begin work on expanding backend saving capabilities. Fix environment issues involving PostgreSQL.
+Jonnie: Begin work on expanding backend saving capabilities. Fixing environment issues involving PostgreSQL.
 
 Mariam: Experiment with new gem packages to improve aesthetics. Resolve Git issues.
 
-Aromal: Support 
+Aromal: Fixing issue with automated unit testing.
 
-Andrew: 
+Andrew: Support testing and research.
 
-Impediments: 
+Impediments: Some PostgreSQL integration efforts have caused unexpected environment problems. Build only works on some people's systems and automated CI fails.
 
-Removal Plan: 
+Removal Plan: Jonnie will try to get to the root of the problem while everyone else mob programs on the working systems.
 
 #### Next 24
-Jonnie: 
+Jonnie: Fix enviornment issues.
 
-Mariam: 
+Mariam: Deploy one of the new gem package feature sets.
 
-Aromal: 
+Aromal: In corporate new BDD test system for Ruby code.
 
-Andrew: 
+Andrew: Task compilation and general support.
 
 #### Programming evidences
 
