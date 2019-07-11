@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>CoolNotes</title>
@@ -7,19 +8,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <script src="https://cdn.ckeditor.com/ckeditor5/12.3.0/classic/ckeditor.js"></script>
     <script src="https://cdn.ckeditor.com/ckeditor5/12.3.0/decoupled-document/ckeditor.js"></script>
-    <!--
-    <script src="/Users/mg/CoolNotes/app/assets/javascripts/fontbackgroundcolor.js"></script>
-    -->
-    <script>
-        import FontBackgroundColorEditing from './fontbackgroundcolor/fontbackgroundcolorediting';
-        import FontBackgroundColorUI from './fontbackgroundcolor/fontbackgroundcolorui';
-    </script>
+
+    <script src="../node_modules/@ckeditor/ckeditor5-inspector/build/inspector.js"></script>
+
+
 
 </head>
 
 <body style="background-color:#50C0D1; ">
 
-    <%= form_with scope: :note_set, url: '/note_set/export', local: true do |form| %>
+    <%= form_with scope: :note_set, url: '/note_set/export', local: true, html: { id: "content" } do |form| %>
 
         <div class="ui form">
             <grammarly-extension class="_1KJtL" style="position: absolute; top: 0px; left: 0px; pointer-events: none;">
@@ -54,13 +52,13 @@
                 <a class="item active"> <i class="home icon"></i> Home </a>
                 <a class="item"> <i class="question circle icon"></i> About </a>
                 <%= link_to 'Contact', infos_path, class: 'item' %>
-					<% if current_user %>
-						<span class="item"><%= current_user.email %></span>
+                    <% if current_user %>
+                        <span class="item"><%= current_user.email %></span>
                         <%= link_to "Log Out", logout_path, class: 'item' %>
-                    <% else %>
-                        <%= link_to "Sign Up", signup_path, class: 'item' %>
-                        <%= link_to "Log In", login_path, class: 'item' %>
-                    <% end %>
+                            <% else %>
+                                <%= link_to "Sign Up", signup_path, class: 'item' %>
+                                    <%= link_to "Log In", login_path, class: 'item' %>
+                                        <% end %>
 
             </div>
 
@@ -68,28 +66,38 @@
 
             <div class="ui container">
 
-
-                <!-- <a class="ui blue ribbon label" style="padding: 10px; margin-top: 35px;"> -->
-                <!-- <i class="pencil icon"> </i> Notes -->
-                <!-- <span> -->
-
-
-                <!-- <textarea id="note_set_text" name="note_set[text]" spellcheck="true" rows="40" cols="100" style="margin-top:20px;">  -->
-
-                <!-- </textarea> -->
-
                 <div id="toolbar-container"></div>
-                <div id="editor">
-                    <span style="background-color: 'Black'"> </span>
-                    <textarea id="note_set_text" name="note_set[text]" spellcheck="true" rows="40" cols="100" style="margin-top:20px;"></textarea>
+
+                <div id="editor" class="primaryeditor">
+
                 </div>
 
                 <script>
                     DecoupledEditor
-                        .create(document.querySelector('#editor'))
+                        .create(document.querySelector('#editor'), {
+                            fontFamily: {
+                                options: [
+                                    'default',
+                                    'Arial, Helvetica, sans-serif',
+                                    'Courier New, Courier, monospace',
+                                    'Georgia, serif',
+                                    'Lucida Sans Unicode, Lucida Grande, sans-serif',
+                                    'Tahoma, Geneva, sans-serif',
+                                    'Times New Roman, Times, serif',
+                                    'Trebuchet MS, Helvetica, sans-serif',
+                                    'Verdana, Geneva, sans-serif'
+                                ]
+
+
+
+                            },
+                            toolbar: [
+                                'heading', '|', 'fontFamily', 'fontSize', '|', 'bold', 'italic', 'underline', 'strikethrough', '|', 'highlight', '|', 'alignment', '|', 'bulletedList', 'numberedList', 'blockQuote', '|', 'undo', 'redo',
+                            ]
+
+                        })
                         .then(editor => {
                             const toolbarContainer = document.querySelector('#toolbar-container');
-
 
                             toolbarContainer.appendChild(editor.ui.view.toolbar.element);
                         })
@@ -98,19 +106,35 @@
                         });
                 </script>
 
-
                 <!--<%= user = current_user ? current_user.id : -1 %>-->
                 <input type="hidden" id="note_set_user_id" name="note_set[user_id]" value="<%=user%>">
-                    <div class="column"></div>
-                    <button class="ui icon button" type="submit" name="commit">
-			<i class="download icon"></i>
-			</button>
+                <input type="hidden" id="note_set_user_id" name="note_set[user_id]" value="<%=user%>">
+
+                <input type="hidden" id="exportData" name="note_set[text]" value="">
+
+                <div class="column"></div>
+
+                <button class="ui icon button exportContent" type="submit" name="commit">
+        <i class="download icon"></i>
+        </button>
+
 
             </div>
 
 
             <% end %>
         </div>
+        <script>
+            $(".exportContent").click(function(e) {
+                e.preventDefault();
+                var a = $('#editor').html();
+                //alert(a); // just to check that your data is there
+                document.getElementById('exportData').value = a;
+                $("#content").submit();
+            });
+        </script>
+
 </body>
+
 
 </html>
