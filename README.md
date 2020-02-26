@@ -4,9 +4,9 @@
 
 ## Scrum Team
 - Scrum Master / Developer: Jonnie Dredge
-- Developer: Mariam Gogia
+- Developer: Andrew Wang 
 - Developer: Aromal Prasannan Lilly
-- Product Owner / Developer: Andrew Wang
+- Product Owner / Developer: Mariam Gogia
 
 ## Scrum Board
 The active product backlog and other associated scrum logs are found at our [Trello](https://trello.com/b/DU1kNLqe/cool-notes)
